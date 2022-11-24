@@ -6,11 +6,15 @@
   },
   "favicon": "./elementary_logo_512x512.png",
   "colors": {
-    "primary": "#FF6B42",
-    "light": "#FE8E08",
-    "dark": "#FF4775",
+    "primary": "#EC5285",
+    "light": "#F2B0C6",
+    "dark": "#EC5285",
     "ultraLight": "#F3D7B4",
-    "ultraDark": "#E0456C"
+    "ultraDark": "#892949",
+    "background": {
+      "light": "#FFF4F7",
+      "dark": "#141414"
+    }
   },
   "topbarCtaButton": {
     "name": "Signup for cloud beta",
@@ -34,16 +38,14 @@
       }
     }
   ],
+  "topAnchor": {
+    "name": "Handbook"
+  },
   "anchors": [
     {
       "name": "Community",
       "icon": "slack",
       "url": "https://join.slack.com/t/elementary-community/shared_invite/zt-uehfrq2f-zXeVTtXrjYRbdE_V6xq4Rg"
-    },
-    {
-      "name": "Demo",
-      "icon": "circle-play",
-      "url": "https://storage.googleapis.com/elementary_static/elementary_demo.html"
     },
     {
       "name": "GitHub",
