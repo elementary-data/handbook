@@ -6,7 +6,7 @@
   },
   "favicon": "./elementary_logo_512x512.png",
   "colors": {
-    "primary": "#EC5285",
+    "primary": "#AA355C",
     "light": "#F2B0C6",
     "dark": "#EC5285",
     "ultraLight": "#F3D7B4",
@@ -55,16 +55,34 @@
   ],
   "navigation": [
     {
-      "group": "Getting Started",
-      "pages": ["introduction", "quickstart", "quickstart-cli"]
+      "group": "Company Handbook",
+      "pages": ["start-here"]
     },
     {
-      "group": "Community & Support",
+      "group": "Who We Are",
       "pages": [
-        "general/troubleshooting",
-        "general/faq",
-        "general/contributions",
-        "general/community-and-support"
+        "who-we-are/our-story"
+      ]
+    },
+    {
+      "group": "How We Work",
+      "pages": [
+        "how-we-work/culture",
+        "how-we-work/best-practices",
+        "how-we-work/day-to-day"
+      ]
+    },
+    {
+      "group": "How We Build",
+      "pages": [
+        "how-we-build/roadmap-and-sprints",
+        "how-we-build/community-success"
+      ]
+    },
+    {
+      "group": "People",
+      "pages": [
+        "people/onboarding"
       ]
     }
   ],
