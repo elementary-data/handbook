@@ -17,26 +17,10 @@
     }
   },
   "topbarCtaButton": {
-    "name": "Signup for cloud beta",
-    "url": "https://www.elementary-data.com/cloud-beta"
+    "name": "Github Repos",
+    "url": "https://github.com/elementary-data"
   },
   "topbarLinks": [
-    {
-      "name": "Blog",
-      "url": "https://www.elementary-data.com/blog",
-      "color": {
-        "from": "#FE8913",
-        "to": "#FE10B0"
-      }
-    },
-    {
-      "name": "Support",
-      "url": "https://join.slack.com/t/elementary-community/shared_invite/zt-uehfrq2f-zXeVTtXrjYRbdE_V6xq4Rg",
-      "color": {
-        "from": "#FE8913",
-        "to": "#FE10B0"
-      }
-    }
   ],
   "topAnchor": {
     "name": "Handbook"
@@ -48,9 +32,9 @@
       "url": "https://join.slack.com/t/elementary-community/shared_invite/zt-uehfrq2f-zXeVTtXrjYRbdE_V6xq4Rg"
     },
     {
-      "name": "GitHub",
-      "icon": "github",
-      "url": "https://github.com/elementary-data/elementary"
+      "name": "Website",
+      "icon": "globe",
+      "url": "https://www.elementary-data.com"
     }
   ],
   "navigation": [
@@ -82,7 +66,7 @@
     {
       "group": "People",
       "pages": [
-        "people/onboarding"
+        "people/hiring"
       ]
     }
   ],
