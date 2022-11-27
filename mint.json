@@ -35,6 +35,11 @@
       "name": "Website",
       "icon": "globe",
       "url": "https://www.elementary-data.com"
+    },
+    {
+      "name": "Github",
+      "icon": "github",
+      "url": "https://github.com/elementary-data/elementary"
     }
   ],
   "navigation": [
