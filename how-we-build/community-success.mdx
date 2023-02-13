@@ -1,4 +1,90 @@
 ---
 title: Community Success
-description: Last updated Nov 22, 2022
+description: Last updated Feb 13, 2023
 ---
+
+Every day someone from the team is on call as what we call ‘community success’.
+
+## Brief history
+
+We opened the Slack workspace so users would have a way to communicate with us and with each other. Naturally, many join seeking support or answers to questions about the product. As the volume in `#support` grew, we decided to have an on call engineer that will be available to respond, while working on the sprint tasks.
+After a few weeks, we learned that this approach is pretty limiting. By only being reactive, we miss opportunities to help users get the most of Elementary. Also, small tasks that can be closed in minutes and users are waiting for are pending prioritization in sprint planning. Meanwhile, on days an engineer was on call, it was really challenging to make progress on the sprint tasks due to the constant context switching.
+
+We decided to try a different approach: When you are on call you focus only on the community, and your goal is helping users succeed with Elementary.
+
+
+## Community success responsibilities
+
+- **Slack community**
+    - Respond to users who need help, report bugs or request features.
+    - We use [Unthread](https://unthread.io/) to manage this, refer to the guide below.
+    - We learn tons from the use cases and conversations in Slack. It’s recommended to ask users to describe their use cases in Github issues. Also, please be attentive and refer the product (see FAQ) team to interesting threads.
+- **GitHub**
+    - Triage new issues - When new issues are opened they get the label `Triage 👀`. Filter on this label and respond to issues. If you think the issue requires product scoping, respond that this is the case and change label to `Product review`.
+        - Every Monday the product team reviews the `Product review` issues, and decides if each should be a sprint task, community backlog and / or open to contribution.
+    - Respond to issues comments.
+    - Provide guidance and review PRs of contributors.
+- **Community backlog**
+    - Deployment blockers, small user requests and tasks that are open to contribution have a `Community` label and form the community backlog. If you have a relatively low `#support` volume, you can work on a task you choose from this backlog.
+
+
+## Beginner’s guide to Unthread
+
+1. On Slack apps, open the app Unthread.
+2. Right-click on the app conversation, and select ‘star conversation‘.
+3. Now this conversation is on the top of your channels. The ‘Home‘ tab is your community success inbox, make sure it is set to show ‘All‘ so you will see threads from the previous days that were not closed yet
+4. Clicking on a thread headline will open it on the right, so you can replay or change status.
+5. Status changes and meanings:
+    1. In Progress - Once you write an answer or add the 👀 emoji to a thread, it changes to `In Progress`. Generally speaking, we should aim that threads will be in this status as little as possible. If you are waiting for a reply from the user or still researching, this is the right status.
+    2. Closed - Use the ✅ emoji to close a thread. Don’t worry, if someone writes a new message in it, it will be re-opened automatically.
+        1. If the thread results in a Github issue (feature request or bug) it should be closed. Please link the issue to the conversation and the conversation to the issue. This will enable us to easily find and notify the user once we release the change.
+        2. If there is no answer from the user in more than 48 hours, send a follow-up message tagging the user and close the thread. The issue will re-open if the user answers.
+    3. On Hold - This status is for threads that result in action items like information requests or debugging call. Use ‘Manage conversation details’ to change the status to ‘On hold’, and add notes to log the reason the thread is pending. Generally speaking, we should try to minimize the use of this status.
+6. If you want to discuss an open thread with the team, use the ‘Triage conversation‘ option. This will create a message about the conversation on our `#community-success` channel. 
+
+
+## Pro tips
+
+1. Don’t talk like a bot - When you talk to users be polite and professional, but use a friendly tone and be yourself.
+2. If threads get long, offer a call - Debugging is pretty hard in writing, especially when it comes to environment and setup issues. It can also become time consuming and frustrating. To avoid that, you can suggest hopping on a debugging call.
+3. When you talk to a user on DM, make sure to document the resolution on the thread. This will make the life of the next on call happier.
+
+
+## FAQ
+
+### How do I know if I’m on-call?
+
+- See the schedule here.
+    - [https://elementary-data.pagerduty.com/schedules#PZFSKWF](https://elementary-data.pagerduty.com/schedules#PZFSKWF)
+- Or - type `/pd oncall` on Slack.
+
+### What should I do during non-working hours?
+
+- Try to provide at least an initial reply.
+    - If you can reply and help, that’s great. If not, don’t feel bad about it. Simply do the following -
+        - Ask the team if someone is available.
+        - It’s ok to say that the team is not available at the moment but we will make sure to reply soon.
+
+### What should I do if I don’t know the answer / not familiar with the question?
+
+- Ask the team if someone is familiar with it and can help.
+- Tell the user that you are asking internally if someone from the team can help with it as your are less familiar with this part of the system (it shows the users that we are handling it and it’s not stalling).
+
+### What should I do during the night?
+
+- Sleep well (and ignore Slack).
+
+### What should I do if I’m going on vacation?
+
+- Ask for a substitution and tell Or about it so he can override the schedule.
+
+### What should I do if I have an open thread with a user / user reaches out on DM and I’m not on-call?
+
+- Feel free to follow up with the relevant user if it takes 5 minutes. if it becomes a new debugging / support session - ask the on-call to take it.
+
+### How should I get the product involved when I recognize an interesting use case?
+
+The best thing to do is to offer the user to hop on a call with us while thread is live. It can be something like this:
+
+> “We would love to learn more about your use case! If you are willing to share, you can schedule a short call with Hadar who is leading to product by using this link -[https://savvycal.com/Hadar-Sagiv/9e49a464](https://savvycal.com/Hadar-Sagiv/9e49a464)”
+>
