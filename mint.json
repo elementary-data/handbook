@@ -4,16 +4,17 @@
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
-  "favicon": "./elementary_logo_512x512.png",
+  "favicon": "/elementary_favicon.png",
   "colors": {
-    "primary": "#AA355C",
-    "light": "#F2B0C6",
-    "dark": "#EC5285",
+    "primary": "#F2386C",
+    "light": "#FE9356",
+    "dark": "#F2386C",
     "ultraLight": "#F3D7B4",
-    "ultraDark": "#892949",
+    "ultraDark": "#E0456C",
+    "anchors": "#F2386C",
     "background": {
-      "light": "#FFF4F7",
-      "dark": "#141414"
+      "dark": "#240A2D",
+      "light": "#FFFFFF"
     }
   },
   "topbarCtaButton": {
@@ -79,7 +80,6 @@
     "website": "https://www.elementary-data.com",
     "slack": "https://join.slack.com/t/elementary-community/shared_invite/zt-uehfrq2f-zXeVTtXrjYRbdE_V6xq4Rg"
   },
-  "backgroundImage": "/background.png",
   "analytics": {
     "ga4": {
       "measurementId": "G-4DQN8YR4NH"
